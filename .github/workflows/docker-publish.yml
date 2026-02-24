@@ -36,6 +36,6 @@ jobs:
         id: build-and-push
         uses: docker/build-push-action@v5
         with:
-        
+          context: quelpoke
           push: true
           tags: louiscesi14/quelpoke:latest
